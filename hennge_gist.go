@@ -16,7 +16,7 @@ func main() {
 
 	for i := 0; i < n; i++ {
 		scanner.Scan()
-		x, _ := strconv.Atoi(scanner.Text())
+		_, _ = strconv.Atoi(scanner.Text()) // Replace x with _
 		sum := 0
 
 		scanner.Scan()
